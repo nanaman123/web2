@@ -1,0 +1,28 @@
+/*상단 바 css*/
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.headline__title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+#login-form {
+  display: flex;
+  margin: 0px;
+}
+
+#login-form input {
+  border: none;
+  padding: 10px 0px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}

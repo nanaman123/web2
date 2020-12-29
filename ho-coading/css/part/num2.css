@@ -1,0 +1,24 @@
+/*상단 이미지 css*/
+
+.backimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 430px;
+  margin-bottom: 70px;
+  background-color: royalblue;
+}
+
+.welcome-header {
+  text-align: center;
+}
+
+.welcome-header span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  color: white;
+  font-family: "Monoton", cursive;
+}

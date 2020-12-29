@@ -1,0 +1,52 @@
+/*프로필 부분 css*/
+.back {
+  background-color: rgba(9, 92, 245, 0.08);
+}
+.contents {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 70px;
+  color: black;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.profile-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  width: 600px;
+  height: 300px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 40px 0px;
+}
+
+.profile-me img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px 40px;
+}
+
+.profile__title {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.name {
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

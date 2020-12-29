@@ -1,0 +1,60 @@
+/*하단 사진 부분css*/
+@keyframes see {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.imagebox {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  left: 0%;
+  width: 100vw;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.language__skill:hover .imagebox {
+  animation: see 1s ease-in-out forwards;
+}
+
+.imagebox {
+  background-color: rgba(9, 92, 245, 0.08);
+  margin-top: 0px;
+}
+
+.imagebox__image {
+  width: 600px;
+  height: 400px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.009);
+  border-radius: 15px;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.imagebox__image img {
+  margin: 0px 100px;
+  width: 400px;
+  height: 90%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.imagebox__image__title {
+  margin: 10px 100px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-weight: 300;
+}
